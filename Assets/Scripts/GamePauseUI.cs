@@ -39,7 +39,7 @@ public class GamePauseUI : MonoBehaviour
     private void GameManager_OnGamePaused(object sender, EventArgs e)
     {
         Show();
-    }
+    } 
 
     private void Show()
     {
