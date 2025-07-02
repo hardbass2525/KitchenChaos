@@ -50,12 +50,17 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
             selectedCounter.Interact(this);
         }
     }
+    
     private void Update()
     {
+        if (!IsOwner)
+        {
+            return;
+        }
+        
         HandleMovement();
         HandleInteractions();
     }
-
 
     public bool IsWalking()
     {
