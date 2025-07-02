@@ -19,9 +19,9 @@ public class GameManager : MonoBehaviour
     }
     
     private State state;
-    private float coutdownToStartTimer = 3f;
+    private float coutdownToStartTimer = 1f;
     private float gamePlayingTimer;
-    private float gamePlayingTimerMax = 30f;
+    private float gamePlayingTimerMax = 300f;
     private bool isGamePaused = false;
     
     private void Awake()
@@ -34,6 +34,10 @@ public class GameManager : MonoBehaviour
     {
         GameInput.Instance.OnPauseAction += GameInput_OnPauseAction;
         GameInput.Instance.OnInteractAction += GameInput_OnInteractAction;
+        
+        // DEBUG TRIGGER GAME TO START AUTOMATICALLY  
+        state = State.CountdownToStart;
+        OnStateChanged?.Invoke(this, EventArgs.Empty);
     }
 
     private void GameInput_OnInteractAction(object sender, System.EventArgs e)
