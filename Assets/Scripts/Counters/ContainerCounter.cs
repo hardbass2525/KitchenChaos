@@ -1,4 +1,5 @@
 using System;
+using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -12,10 +13,23 @@ public class ContainerCounter : BaseCounter
     public override void Interact (Player player) 
     {
         if (!player.HasKitchenObject()) {
-        // Player is not carrying anything
-        KitchenObject.SpawnKitchenObject(kitchenObjectSO, player);
-    
-        OnPlayerGrabbedObject?.Invoke(this, EventArgs.Empty);
+            // Player is not carrying anything
+            KitchenObject.SpawnKitchenObject(kitchenObjectSO, player);
+        
+            InteractLogicServerRpc();
         }
     }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void InteractLogicServerRpc()
+    {
+        InteractLogicClientRpc();
+    }
+
+    [ClientRpc]
+    private void InteractLogicClientRpc()
+    {
+        OnPlayerGrabbedObject?.Invoke(this, EventArgs.Empty);
+    }
+    
 }
