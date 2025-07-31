@@ -14,39 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1752506885
+  lastShownTimestamp: 1753985035
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1752506885
+  checkedLastUpdateTimestamp: 1753985035
   lastQOTDResponse:
-    questionId: 200
-    questionText: What is the orthographicSize in a 2D camera?
-    answerA: Units visible horizontally
-    answerB: Units visible vertically
-    answerC: Half the units visible horizontally
-    answerD: Half the units visible vertically
+    questionId: 206
+    questionText: The Profiler is useful for...
+    answerA: Balancing difficulty
+    answerB: Level Design
+    answerC: Indentifying performance bottlenecks
+    answerD: 
     answerE: 
-  lastQotdTimestamp: 1752506885
+  lastQotdTimestamp: 1753985035
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
     topLink: summer2025bundle
-    bottomText: AWESOME NEW Unity Bundle with Tools and Assets 97% OFF!
-    bottomLink: humblebundle
-  lastDynamicHeaderTimestamp: 1752506885
+    bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
+      OFF right now!
+    bottomLink: toolkit
+  lastDynamicHeaderTimestamp: 1753985035
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1752506885
+  websiteLatestMessageTimestamp: 1753985035
   websiteLatestVideos:
     videos:
-    - youTubeId: OOVrtfWLdvE
-      title: TOP 10 FREE NEW Assets JULY 2025!
-    - youTubeId: ALogEuL6QdA
-      title: The BEST Design Patterns for Game Dev! (Save Time and make BETTER Games!)
-    - youTubeId: 7RwMD97Le7I
-      title: Learn C# by DOING, FizzBuzz Beginner Project (Overview + Walkthrough)
-    - youTubeId: miW-Q8EuRWU
-      title: The BEST Worldbuilding Tool is FREE! (ENDS SOON!)
-  websiteLatestVideosTimestamp: 1752506885
+    - youTubeId: K-AjBKP4uq0
+      title: I Made Over $1 MILLION Making Indie Games, Could YOU Do This in 2025?
+    - youTubeId: YMMS621ZoI8
+      title: NEW Steam 2025 Marketing Tips you NEED to know!
+    - youTubeId: SfZquiwnEPQ
+      title: TOP 10 NEW Systems and Tools JUNE 2025! | Unity Asset Store
+    - youTubeId: oBCXk_6Fft0
+      title: This MISTAKE cost $28,000,000!
+  websiteLatestVideosTimestamp: 1753985035
