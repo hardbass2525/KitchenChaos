@@ -28,7 +28,7 @@ public class GameManager : NetworkBehaviour
     private bool isLocalPlayerReady;
     private NetworkVariable<float> coutdownToStartTimer = new NetworkVariable<float>(3f);
     private NetworkVariable<float> gamePlayingTimer = new NetworkVariable<float>(0f);
-    private float gamePlayingTimerMax = 10f;
+    private float gamePlayingTimerMax = 90f;
     private bool isGamePaused = false;
     private Dictionary<ulong, bool> playerReadyDictionary;
     
