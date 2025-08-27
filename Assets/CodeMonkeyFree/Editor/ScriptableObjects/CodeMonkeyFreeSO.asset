@@ -14,40 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1755012853
+  lastShownTimestamp: 1756313965
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1755012853
+  checkedLastUpdateTimestamp: 1756313965
   lastQOTDResponse:
-    questionId: 210
-    questionText: What is the significance of January 1st, 1970?
-    answerA: Skyrim Release Date on the Magnavox Odyssey
-    answerB: Start of Unix Time
-    answerC: 
+    questionId: 215
+    questionText: What will happen on January 19, 2038 at 03:14:07?
+    answerA: Armagedon
+    answerB: End of Unix Time
+    answerC: Half-Life 3 release date
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1755012853
+  lastQotdTimestamp: 1756313965
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
-    topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle_EndsTomorrow.png
+    topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ENDS TOMORROW!
     topLink: summer2025bundle
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1755012853
+  lastDynamicHeaderTimestamp: 1756313965
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1755012853
+  websiteLatestMessageTimestamp: 1756313965
   websiteLatestVideos:
     videos:
-    - youTubeId: nGKd4yTP3M8
-      title: Learn Unity 2D Beginner FREE COMPLETE Course
-    - youTubeId: 7xz5Xh4E_B0
-      title: I NEED your HELP!
-    - youTubeId: y-w3vnh_f4Q
-      title: Are Old Tutorials OBSOLETE?
-    - youTubeId: DaKW4kqFlao
-      title: How to LEARN new Skills on HARD MODE!
-  websiteLatestVideosTimestamp: 1755012853
+    - youTubeId: FrKLJ1nCsxY
+      title: Indie Dev makes $4 MILLION... then goes broke!
+    - youTubeId: _fymNH4flZE
+      title: TOP 10 NEW Systems and Tools AUGUST 2025! | Unity Asset Store
+    - youTubeId: YCvh88Hg5m8
+      title: TOP 8 QUICK Tips on Game Programming!
+    - youTubeId: Lgmv7PYKka8
+      title: Does this AI FINALLY replace Game Devs? Should YOU worry?
+  websiteLatestVideosTimestamp: 1756313965
