@@ -14,58 +14,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1756921487
+  lastShownTimestamp: 1757346207
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1756921487
+  checkedLastUpdateTimestamp: 1757346207
   lastQOTDResponse:
-    questionId: 217
-    questionText: 'When would this code cause an error?
+    questionId: 219
+    questionText: 'Does this variable get reset when you load a different Scene?
 
-      <p>Building closest
-      = null;</p>
-
-      <p>for (int i = 0; i &lt; instanceList.Count; i++) {</p>
-
-      <p>&nbsp;
-      &nbsp; if (Vector3.Distance(position, instanceList[i].GetPosition()) &lt; Vector3.Distance(position,
-      closest.GetPosition())) {</p>
-
-      <p>&nbsp; &nbsp; &nbsp; &nbsp; closest
-      = instanceList[i];</p>
-
-      <p>&nbsp; &nbsp; }</p>
-
-      <p>}</p>
-
-      <p>return
-      closest;</p>'
-    answerA: When instanceList is empty
-    answerB: When instanceList has at least one element
-    answerC: When instanceList has exactly two elements
+      <p>private
+      static int score;</p>'
+    answerA: Yes
+    answerB: No
+    answerC: Only when loading the Main Menu
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1756921487
+  lastQotdTimestamp: 1757346207
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleAug25RealisticEnv.png
     topText: AWESOME Realistic Environments 99% OFF!
     topLink: humblebundle
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1756921487
+  lastDynamicHeaderTimestamp: 1757346207
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1756921487
+  websiteLatestMessageTimestamp: 1757346207
   websiteLatestVideos:
     videos:
+    - youTubeId: mM8B9YPEC10
+      title: You NEED to do this exercise!
+    - youTubeId: 9EOhc8Kn1E0
+      title: 'Game Devs, don''t be AFRAID of Hollow Knight: Silksong!'
     - youTubeId: 8Ym28WJUYnQ
       title: The BIGGEST Problem in Game Dev!
     - youTubeId: C66iDut3jTM
       title: BEST NEW Visual Assets to INSPIRE YOU!
-    - youTubeId: JZHByNNQb3I
-      title: 8 QUICK Success and Marketing Tips you NEED to know!
-    - youTubeId: FrKLJ1nCsxY
-      title: Indie Dev makes $4 MILLION... then goes broke!
-  websiteLatestVideosTimestamp: 1756921487
+  websiteLatestVideosTimestamp: 1757346207
