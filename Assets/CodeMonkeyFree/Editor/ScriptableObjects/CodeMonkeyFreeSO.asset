@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1757346207
+  lastShownTimestamp: 1757434556
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1757346207
+  checkedLastUpdateTimestamp: 1757434556
   lastQOTDResponse:
     questionId: 219
     questionText: 'Does this variable get reset when you load a different Scene?
@@ -30,26 +30,26 @@ MonoBehaviour:
     answerC: Only when loading the Main Menu
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1757346207
+  lastQotdTimestamp: 1757434556
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleAug25RealisticEnv.png
     topText: AWESOME Realistic Environments 99% OFF!
     topLink: humblebundle
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1757346207
+  lastDynamicHeaderTimestamp: 1757434556
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1757346207
+  websiteLatestMessageTimestamp: 1757434556
   websiteLatestVideos:
     videos:
+    - youTubeId: ftVR1xwfO5g
+      title: AWESOME FREE Unity Best Practices Tutorials!
     - youTubeId: mM8B9YPEC10
       title: You NEED to do this exercise!
     - youTubeId: 9EOhc8Kn1E0
       title: 'Game Devs, don''t be AFRAID of Hollow Knight: Silksong!'
     - youTubeId: 8Ym28WJUYnQ
       title: The BIGGEST Problem in Game Dev!
-    - youTubeId: C66iDut3jTM
-      title: BEST NEW Visual Assets to INSPIRE YOU!
-  websiteLatestVideosTimestamp: 1757346207
+  websiteLatestVideosTimestamp: 1757434556
