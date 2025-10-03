@@ -14,45 +14,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1757692080
+  lastShownTimestamp: 1759508797
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1757692080
+  checkedLastUpdateTimestamp: 1759508797
   lastQOTDResponse:
-    questionId: 220
-    questionText: 'Let''s say I saved my game data in a text file and I am now trying
-      to load it, does this work?
+    questionId: 227
+    questionText: 'Is this valid code?
 
-      <p>string savedHealthData = "100";</p>
-
-      <p>int
-      healthAmount = savedHealthData;</p>'
+      <p>Color? myColor = null;</p>'
     answerA: Yes
-    answerB: No
-    answerC: Yes but healthAmount will be 0
+    answerB: No, myColor is a struct and cannot be null
+    answerC: 
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1757692080
+  lastQotdTimestamp: 1759508797
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleAug25RealisticEnv.png
-    topText: AWESOME Realistic Environments 99% OFF!
-    topLink: humblebundle
-    bottomText: My 10+ Years of C# Knowledge in 1 Course!
-    bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1757692080
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/codeMonkeyToolkit50Off.png
+    topText: Get my Toolkit! 40 Tools and Elements to help you make games BETTER
+      and FASTER!
+    topLink: toolkit
+    bottomText: Synty Humble Bundle is FINALLY BACK! 97% OFF dont miss it!
+    bottomLink: humblebundle
+  lastDynamicHeaderTimestamp: 1759508797
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1757692080
+  websiteLatestMessageTimestamp: 1759508797
   websiteLatestVideos:
     videos:
-    - youTubeId: 8BIpWVsQFnQ
-      title: TOP 10 NEW Games, Made with Unity! (AUGUST 2025)
-    - youTubeId: ftVR1xwfO5g
-      title: AWESOME FREE Unity Best Practices Tutorials!
-    - youTubeId: mM8B9YPEC10
-      title: You NEED to do this exercise!
-    - youTubeId: 9EOhc8Kn1E0
-      title: 'Game Devs, don''t be AFRAID of Hollow Knight: Silksong!'
-  websiteLatestVideosTimestamp: 1757692080
+    - youTubeId: vhflNElicXU
+      title: Optimization is awesome, but do NOT make this mistake!
+    - youTubeId: _UadeZn6kI8
+      title: Should you use UI Toolkit or Unity UI?
+    - youTubeId: E7OBm60vUCY
+      title: BEST NEW Visual Assets to INSPIRE YOU!
+    - youTubeId: 5GqRR8-yYvQ
+      title: How I find AWESOME Game Dev stuff!
+  websiteLatestVideosTimestamp: 1759508797

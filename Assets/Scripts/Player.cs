@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Unity.Netcode;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : NetworkBehaviour, IKitchenObjectParent
@@ -28,6 +29,7 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
     [SerializeField] private LayerMask collisionsLayerMask;
     [SerializeField] private Transform kitchenObjectHoldPoint;
     [SerializeField] private List<Vector3> spawnPositionList;
+    [SerializeField] private PlayerVisual playerVisual;
     
 
     private bool isWalking;
@@ -39,6 +41,9 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
     {
         GameInput.Instance.OnInteractAction += GameInput_OnInteractAction;
         GameInput.Instance.OnInteractAlternateAction += GameInput_OnInteractAlternateAction;
+        
+        PlayerData playerData = GameMultiplayer.Instance.GetPlayerDataFromClientId(OwnerClientId);
+        playerVisual.SetPlayerColor(GameMultiplayer.Instance.GetPlayerColor(playerData.colorId));
     }
 
     public override void OnNetworkSpawn()
@@ -48,7 +53,7 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
             LocalInstance = this;
         }
         
-        transform.position = spawnPositionList[(int)OwnerClientId];
+        transform.position = spawnPositionList[GameMultiplayer.Instance.GetPlayerDataIndexFromClientId(OwnerClientId)];
         
         OnAnyPlayerSpawned?.Invoke(this, EventArgs.Empty);
 
