@@ -8,7 +8,7 @@
     {
 
         
-        private const int MAX_PLAYER_AMOUNT = 4;
+        public const int MAX_PLAYER_AMOUNT = 4;
             
         public static GameMultiplayer Instance { get; private set; }
 
